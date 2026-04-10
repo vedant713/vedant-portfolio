@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant Dhoke | AI Engineer & Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+    <div class="scroll-progress"></div>
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">VD</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#about">about</a>
+                <a href="#stats">stats</a>
+                <a href="#skills">skills</a>
+                <a href="#experience">experience</a>
+                <a href="#projects">projects</a>
+                <a href="#education">education</a>
+                <a href="Resume 26 march ind.pdf" download>resume</a>
+            </div>
+        </div>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+    <a href="#hero" class="back-to-top" aria-label="Back to top">↑</a>
+
+    <main>
+        <section id="hero" class="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <div class="code-block">
+                    <span class="comment">// portfolio.js</span>
+                    <span class="function">const developer</span> = {
+                </div>
+                <h1 class="name">VEDANT DHOKE</h1>
+                <p class="title">AI Engineer & Software Developer</p>
+                <p class="tagline">Building intelligent systems that scale</p>
+                <div class="contact-line">
+                    <span class="comment">// contact</span>
+                    <span class="string">"Syracuse, NY"</span><span class="comma">,</span>
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:vedant713@gmail.com" class="contact-link">vedant713@gmail.com</a>
+                    <span class="divider">|</span>
+                    <a href="tel:+13154185921" class="contact-link">+1 3154185921</a>
+                    <span class="divider">|</span>
+                    <a href="https://www.linkedin.com/in/vedant-dhokee/" target="_blank" class="contact-link">LinkedIn</a>
+                    <span class="divider">|</span>
+                    <a href="https://github.com/vedant713" target="_blank" class="contact-link">GitHub</a>
+                </div>
+                <div class="code-block-end">
+                    <span class="brace">}</span>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-text">scroll</span>
+                <span class="scroll-arrow">↓</span>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-header">
+                <span class="line-number">01</span>
+                <h2 class="section-title">about</h2>
+            </div>
+            <div class="about-container">
+                <div class="glitch-wrapper">
+                    <h3 class="glitch-text" data-text="PROFILE">PROFILE</h3>
+                    <div class="about-text-wrapper">
+                        <p class="about-text-main">
+                            I'm an AI & Software Engineer with an MS in Computer Science from Syracuse University (GPA: 3.6) and hands-on experience building production-grade AI systems and scalable backends.
+                        </p>
+                        <p class="about-text-secondary">
+                            I engineer high-performance APIs with FastAPI handling and I ship systems that scale.
+                        </p>
+                    </div>
+                </div>
+                <div class="terminal-frame">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">about.exe</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command">cat profile.json</span>
+                        </div>
+                        <div class="terminal-output">
+                            <span class="json-key">"name"</span>: <span class="json-value">"Vedant Dhoke"</span>,<br>
+                            <span class="json-key">"title"</span>: <span class="json-value">"AI & Software Engineer"</span>,<br>
+                            <span class="json-key">"education"</span>: <span class="json-value">"MS CS @ Syracuse (3.6)"</span>,<br>
+                            <span class="json-key">"focus"</span>: <span class="json-value">"FastAPI, AI Systems, Scale"</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section">
+            <div class="section-header">
+                <span class="line-number">02</span>
+                <h2 class="section-title">stats</h2>
+            </div>
+            <div class="stats-grid">
+                <div class="stats-category">
+                    <span class="stats-label">// core_numbers</span>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="40">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">GitHub Repositories</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="515">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Profile Visits</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-static">2024</span>
+                        <span class="stat-label">Active Since</span>
+                    </div>
+                </div>
+                
+                <div class="stats-category">
+                    <span class="stats-label">// project_highlights</span>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="22">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Original Projects Built</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="6">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Languages Mastered</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="8">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">AI/ML Projects</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Browser Extensions</span>
+                    </div>
+                </div>
+                
+                <div class="stats-category">
+                    <span class="stats-label">// impact_metrics</span>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="10000">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Lines of Code Written</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">GitHub Contributions</span>
+                    </div>
+                    <div class="stat-card code-block">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Systems Architectures</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-header">
+                <span class="line-number">03</span>
+                <h2 class="section-title">skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="code-block skill-block">
+                        <span class="comment">// languages</span>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="code-block skill-block">
+                        <span class="comment">// backend</span>
+                        <div class="tags">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">gRPC</span>
+                            <span class="tag">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="code-block skill-block">
+                        <span class="comment">// data_cloud</span>
+                        <div class="tags">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">GCP</span>
+                            <span class="tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="code-block skill-block">
+                        <span class="comment">// ai_ml</span>
+                        <div class="tags">
+                            <span class="tag">AI Agents</span>
+                            <span class="tag">Multi-Agent Systems</span>
+                            <span class="tag">LLM APIs</span>
+                            <span class="tag">Prompt Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="section-header">
+                <span class="line-number">04</span>
+                <h2 class="section-title">experience</h2>
+            </div>
+            <div class="experience-list">
+                <div class="experience-item code-block">
+                    <div class="exp-header">
+                        <span class="exp-title">AI Engineer</span>
+                        <span class="exp-company">@ Longevity InTime</span>
+                        <span class="exp-type">Freelance</span>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Built AI multi-agent platform for autonomous drug discovery (25+ agents, 50,000+ clinical trials)</li>
+                        <li>Reduced LLM costs by 80% through intelligent caching</li>
+                        <li>Created clinical trial prediction system (40% improvement)</li>
+                        <li>Implemented RAG-based knowledge system (1,400+ entries, 60% hallucination reduction)</li>
+                    </ul>
+                </div>
+                <div class="experience-item code-block">
+                    <div class="exp-header">
+                        <span class="exp-title">AI Software Engineer</span>
+                        <span class="exp-company">@ Syracuse University</span>
+                        <span class="exp-period">Aug 2025 – Mar 2026</span>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Engineered FastAPI backend for multi-agent AI orchestration (500+ sessions, 99.9% uptime)</li>
+                        <li>Built real-time streaming API with sub-100ms latency</li>
+                        <li>Designed multi-stage reasoning framework (4 rounds)</li>
+                        <li>Built dynamic agent configuration system (150+ configurations)</li>
+                    </ul>
+                </div>
+                <div class="experience-item code-block">
+                    <div class="exp-header">
+                        <span class="exp-title">Software Engineering Intern</span>
+                        <span class="exp-company">@ Sparks Foundation</span>
+                        <span class="exp-period">Jul 2024 – Aug 2024</span>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Developed RESTful APIs processing 181,000+ records (45ms response time)</li>
+                        <li>Created responsive dashboard with Plotly (12 global regions)</li>
+                        <li>Implemented CI/CD pipeline (85% deployment time reduction)</li>
+                    </ul>
+                </div>
+                <div class="experience-item code-block">
+                    <div class="exp-header">
+                        <span class="exp-title">Data Science Intern</span>
+                        <span class="exp-company">@ CodeClause</span>
+                        <span class="exp-period">Jun 2024 – Jul 2024</span>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Built AI-powered data analysis studio with clustering algorithms</li>
+                        <li>Developed automated EDA pipeline (90% time reduction)</li>
+                        <li>Constructed data cleaning pipeline (99% data integrity)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-header">
+                <span class="line-number">05</span>
+                <h2 class="section-title">projects</h2>
+            </div>
+            <div class="projects-grid">
+                <a href="https://github.com/vedant713/multi-agent-brainstorming-system" target="_blank" class="project-card code-block">
+                    <div class="project-header">
+                        <span class="project-name">Multi-Agent Brainstorming System</span>
+                        <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </div>
+                    <p class="project-desc">Orchestrating AI for deep thought with specialized agents</p>
+                    <span class="project-tag">AI Agents</span>
+                    <div class="scan-line"></div>
+                </a>
+                <a href="https://github.com/vedant713/zero-click-assistant-sleek" target="_blank" class="project-card code-block">
+                    <div class="project-header">
+                        <span class="project-name">Zero-Click Assistant</span>
+                        <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </div>
+                    <p class="project-desc">Read-my-screen AI assistant with continuous voice interaction</p>
+                    <span class="project-tag">Voice AI</span>
+                    <div class="scan-line"></div>
+                </a>
+                <a href="https://github.com/vedant713/ai-job-search-companion" target="_blank" class="project-card code-block">
+                    <div class="project-header">
+                        <span class="project-name">AI Job Search Companion</span>
+                        <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </div>
+                    <p class="project-desc">AI-powered application tracking and skill gap identification</p>
+                    <span class="project-tag">Productivity</span>
+                    <div class="scan-line"></div>
+                </a>
+                <a href="https://github.com/vedant713/workday-skills-autofill" target="_blank" class="project-card code-block">
+                    <div class="project-header">
+                        <span class="project-name">Workday Skills Autofill</span>
+                        <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </div>
+                    <p class="project-desc">Chrome extension reducing application time by 80%</p>
+                    <span class="project-tag">Browser Extension</span>
+                    <div class="scan-line"></div>
+                </a>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="section-header">
+                <span class="line-number">06</span>
+                <h2 class="section-title">education</h2>
+            </div>
+            <div class="education-list">
+                <div class="education-item code-block animate-on-scroll">
+                    <div class="edu-header">
+                        <span class="edu-degree">MS in Computer Science</span>
+                        <span class="edu-school">Syracuse University</span>
+                    </div>
+                    <div class="edu-details">
+                        <span class="edu-gpa">GPA: 3.6/4</span>
+                        <span class="edu-year">May 2025</span>
+                    </div>
+                </div>
+                <div class="education-item code-block animate-on-scroll">
+                    <div class="edu-header">
+                        <span class="edu-degree">BE in Computer Engineering</span>
+                        <span class="edu-school">University of Mumbai</span>
+                    </div>
+                    <div class="edu-details">
+                        <span class="edu-gpa">GPA: 9.15/10</span>
+                        <span class="edu-year">Aug 2023</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="copyright">© 2026 Vedant Dhoke</p>
+            <p class="built-with">Built with precision</p>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        function setTheme(theme) {
+            body.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            setTheme(newTheme);
+        }
+
+        themeToggle.addEventListener('click', toggleTheme);
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section, .code-block, .project-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        const animateOnScrollObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    animateOnScrollObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate-on-scroll, .about-content, .education-item').forEach(el => {
+            animateOnScrollObserver.observe(el);
+        });
+
+        let lastScroll = 0;
+        const nav = document.querySelector('.floating-nav');
+        const scrollProgress = document.querySelector('.scroll-progress');
+        const backToTop = document.querySelector('.back-to-top');
+        const heroSection = document.getElementById('hero');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (currentScroll / docHeight) * 100;
+            scrollProgress.style.width = scrollPercent + '%';
+            
+            if (currentScroll > 100) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+            
+            if (currentScroll > heroSection.offsetHeight) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        backToTop.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        const canvas = document.getElementById('hero-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        let animationId;
+        
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = heroSection.offsetHeight;
+        }
+        
+        function createParticle() {
+            return {
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height - canvas.height,
+                size: Math.random() * 2 + 1,
+                speed: Math.random() * 0.5 + 0.2,
+                opacity: Math.random() * 0.1 + 0.1
+            };
+        }
+        
+        function initParticles() {
+            particles = [];
+            const particleCount = Math.floor((canvas.width * canvas.height) / 15000);
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    size: Math.random() * 2 + 1,
+                    speed: Math.random() * 0.5 + 0.2,
+                    opacity: Math.random() * 0.1 + 0.1
+                });
+            }
+        }
+        
+        function drawParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            const accentColor = getComputedStyle(document.documentElement).getPropertyValue('--accent-blue').trim();
+            
+            particles.forEach(p => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fillStyle = accentColor;
+                ctx.globalAlpha = p.opacity;
+                ctx.fill();
+                
+                p.y += p.speed;
+                if (p.y > canvas.height) {
+                    p.y = -10;
+                    p.x = Math.random() * canvas.width;
+                }
+            });
+            
+            ctx.globalAlpha = 1;
+            animationId = requestAnimationFrame(drawParticles);
+        }
+        
+        resizeCanvas();
+        initParticles();
+        drawParticles();
+        
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+            initParticles();
+        });
+
+        function formatNumber(num) {
+            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+
+        function animateCounter(element, target, duration) {
+            const start = 0;
+            const startTime = performance.now();
+            const isLargeNumber = target >= 1000;
+            
+            function update(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const easeOut = 1 - Math.pow(1 - progress, 3);
+                const current = Math.floor(start + (target - start) * easeOut);
+                
+                element.textContent = formatNumber(current);
+                
+                if (progress < 1) {
+                    requestAnimationFrame(update);
+                } else {
+                    element.textContent = formatNumber(target);
+                }
+            }
+            
+            requestAnimationFrame(update);
+        }
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number[data-target]');
+                    statNumbers.forEach((stat, index) => {
+                        const target = parseInt(stat.getAttribute('data-target'), 10);
+                        setTimeout(() => {
+                            animateCounter(stat, target, 2000);
+                        }, index * 150);
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        const statsSection = document.getElementById('stats');
+        if (statsSection) {
+            statsObserver.observe(statsSection);
+        }
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        const skillsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    const tags = entry.target.querySelectorAll('.tag');
+                    tags.forEach((tag, index) => {
+                        setTimeout(() => {
+                            tag.classList.add('animate-in');
+                        }, index * 150);
+                    });
+                    skillsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        document.querySelectorAll('.skill-category').forEach(el => {
+            skillsObserver.observe(el);
+        });
+
+        const experienceObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    const items = entry.target.querySelectorAll('.experience-item');
+                    items.forEach((item, index) => {
+                        setTimeout(() => {
+                            item.classList.add('animate-in');
+                            const bullets = item.querySelectorAll('.exp-details li');
+                            bullets.forEach((bullet) => {
+                                bullet.classList.add('animate-in');
+                            });
+                        }, index * 200);
+                    });
+                    experienceObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const experienceList = document.querySelector('.experience-list');
+        if (experienceList) {
+            experienceObserver.observe(experienceList);
+        }
+
+        const projectsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    projectsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.projects-grid').forEach(el => {
+            projectsObserver.observe(el);
+        });
+
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                if (prefersReducedMotion) return;
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = (y - centerY) / 20;
+                const rotateY = (centerX - x) / 20;
+                card.style.transform = `translateY(-4px) perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = '';
+            });
+
+            setInterval(() => {
+                if (prefersReducedMotion) return;
+                const tag = card.querySelector('.project-tag');
+                if (tag && Math.random() > 0.7) {
+                    tag.classList.add('sparkle');
+                    setTimeout(() => tag.classList.remove('sparkle'), 600);
+                }
+            }, 3000);
+        });
+
+        // Mobile nav toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                navToggle.classList.toggle('active');
+            });
+            
+            // Close menu when clicking a link
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    navToggle.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
